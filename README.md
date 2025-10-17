@@ -61,13 +61,15 @@ kmeans.fit(dados_padronizados)
 df_dsa['cluster'] = kmeans.labels_
 ```
 
-O resultado foi uma base segmentada em três grupos (Cluster 0, 1 e 2), que representam perfis distintos de clientes — por exemplo:
+---
 
-- Cluster 0: Clientes jovens com renda média e alta pontuação de gastos.
+### 🚀 O resultado foi uma base segmentada em três grupos (Clusters 0, 1 e 2), representando perfis distintos de clientes:
 
-- Cluster 1: Clientes de renda mais alta com gastos equilibrados.
+- Cluster 0: Clientes maduros, com alta renda, mas baixo engajamento.
 
-- Cluster 2: Clientes com menor renda e baixa pontuação de gastos.
+- Cluster 1: Clientes com renda mais baixa, porém altamente engajados.
+
+- Cluster 2: Clientes jovens, de renda média, com baixo consumo atual, mas grande potencial de crescimento.
 
 ---
 
